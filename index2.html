@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Recommender</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="service-selection">
+            <h1>Select a Service</h1>
+            <ul>
+                <li onclick="showServiceProviders('artwork')">Art Work</li>
+                <li onclick="showServiceProviders('daycare')">Day Care</li>
+                <li onclick="showServiceProviders('catering')">Catering</li>
+                <li onclick="showServiceProviders('househelp')">House Help</li>
+            </ul>
+        </div>
+        <div class="cityselection">
+            <h1>Select Location</h1>
+            <ul>
+                <li onclick="showcity('Bibvewadi')">Bibvewadi</li>
+                <li onclick="showcity('Kothrud')">Kothrud</li>
+                <li onclick="showcity('Balewadi')">Balewadi</li>
+                <li onclick="showcity('Baner')">Baner</li>
+            </ul>
+        </div>
+        <div class="providers-list" id="providersList">
+            <!-- Providers will be listed here -->
+        </div>
+    </div>
+    <script src="./css/script.js"></script>
+</body>
+</html>
+
+
